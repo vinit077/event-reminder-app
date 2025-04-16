@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { auth } from './services/firebase';
+
+console.log("Firebase Auth:", auth);
+
 
 function App() {
   return (
