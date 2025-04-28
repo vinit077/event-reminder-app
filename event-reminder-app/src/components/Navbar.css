@@ -1,0 +1,44 @@
+.navbar {
+    width: 100%;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6e6fa; /* Light lavender tone */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-left .logo {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    padding: 6px 14px;
+    border-radius: 10px;
+  }
+  
+  .navbar-center h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon-button {
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    padding: 8px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .icon-button:hover {
+    background-color: #dcdcdc;
+  }
+  

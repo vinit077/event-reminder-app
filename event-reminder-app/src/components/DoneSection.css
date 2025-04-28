@@ -1,0 +1,42 @@
+.done-section {
+    margin-top: 30px;
+    background: #f0f8ff;
+    border-radius: 12px;
+    padding: 20px;
+  }
+  
+  .done-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .empty-text {
+    color: #777;
+    font-size: 14px;
+  }
+  
+  .done-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .done-item {
+    padding: 8px;
+    margin-bottom: 6px;
+    background: #e0ffe0;
+    border-radius: 8px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
